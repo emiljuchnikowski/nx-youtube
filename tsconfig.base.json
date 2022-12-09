@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@test-nx/buildable": ["libs/buildable/src/index.ts"],
       "@test-nx/shared": ["libs/shared/src/index.ts"],
       "@test-nx/shared/angular": ["libs/shared/src/angular.ts"],
       "@test-nx/shared/nest": ["libs/shared/src/nest.ts"],
