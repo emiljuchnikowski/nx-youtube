@@ -20,6 +20,7 @@
       "@test-nx/shared/angular": ["libs/shared/src/angular.ts"],
       "@test-nx/shared/nest": ["libs/shared/src/nest.ts"],
       "@test-nx/tasks": ["libs/tasks/src/index.ts"],
+      "@test-nx/test-plugin": ["libs/test-plugin/src/index.ts"],
       "@test-nx/users": ["libs/users/src/index.ts"]
     }
   },

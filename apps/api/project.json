@@ -10,6 +10,12 @@
         "command": "echo {args.name}"
       }
     },
+    "echo2": {
+      "executor": "@test-nx/test-plugin:echo",
+      "options": {
+        "text": "Tekst wprowadzony"
+      }
+    },
     "build": {
       "executor": "@nrwl/webpack:webpack",
       "outputs": ["{options.outputPath}"],
