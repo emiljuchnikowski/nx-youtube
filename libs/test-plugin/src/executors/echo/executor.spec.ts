@@ -7,7 +7,7 @@ const options: EchoExecutorSchema = {
 
 describe('Echo Executor', () => {
   it('can run', async () => {
-    const output = await executor(options);
+    const output = await executor(options, null);
     expect(output.success).toBe(true);
   });
 });
