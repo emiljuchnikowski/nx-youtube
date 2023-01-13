@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "version": 2,
+  "cli": "nx",
+  "title": "Push executor",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "image name"
+    },
+    "tag": {
+      "type": "string",
+      "description": "image tag"
+    }
+  },
+  "required": [ "tag", "name" ]
+}

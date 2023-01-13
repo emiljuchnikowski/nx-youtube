@@ -16,6 +16,16 @@
         "text": "Tekst wprowadzony"
       }
     },
+    "push": {
+      "dependsOn": [
+        "build:production"
+      ],
+      "executor": "@test-nx/test-plugin:push",
+      "options": {
+        "name": "test-image",
+        "tag": "{args.tag}"
+      }
+    },
     "build": {
       "executor": "@nrwl/webpack:webpack",
       "outputs": ["{options.outputPath}"],
