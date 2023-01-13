@@ -7,6 +7,11 @@
       "factory": "./src/generators/test-plugin/generator",
       "schema": "./src/generators/test-plugin/schema.json",
       "description": "test-plugin generator"
+    },
+    "create-file": {
+      "factory": "./src/generators/create-file/generator",
+      "schema": "./src/generators/create-file/schema.json",
+      "description": "create-file generator"
     }
   }
 }
