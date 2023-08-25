@@ -3,15 +3,13 @@
   "npmScope": "test-nx",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/nx-cloud",
       "options": {
         "cacheableOperations": [
           "build",
           "lint",
           "test",
           "e2e"
-        ],
-        "accessToken": "NmZhYmFlZDgtOTIwZi00OWNlLTkwYmMtN2ZhYmViMTRhM2Y0fHJlYWQtd3JpdGU="
+        ]
       }
     }
   },
@@ -59,7 +57,6 @@
     ],
     "sharedGlobals": []
   },
-  "defaultProject": "api",
   "generators": {
     "@nrwl/angular:application": {
       "style": "scss",

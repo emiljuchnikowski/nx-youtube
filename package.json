@@ -8,7 +8,6 @@
     "test": "nx test",
     "echo": "echo test"
   },
-  "nx": {},
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.0.0",
